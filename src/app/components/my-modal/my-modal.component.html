@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      My Modal
+    </ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-segment value="one">
+      <ion-segment-button value="one">
+        <ion-label>One</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="two">
+        <ion-label>Two</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="three">
+        <ion-label>Three</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content></ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-button expand="block" (click)="closeModal()">
+      Close Modal
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>
