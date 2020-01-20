@@ -1,8 +1,8 @@
 {
-  "name": "skills4school",
+  "name": "myapp",
   "version": "1.0.0",
-  "author": "Skills4School",
-  "homepage": "https://www.skills4school.de/",
+  "author": "Learn Ionic, by CONDACORE",
+  "homepage": "https://learn-ionic.com/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -71,9 +71,6 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-ionic-webview": {}
-    },
-    "platforms": [
-      "ios"
-    ]
+    }
   }
 }
