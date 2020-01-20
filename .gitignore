@@ -10,6 +10,7 @@
 *.sublime-workspace
 .DS_Store
 Thumbs.db
+package-lock.json
 UserInterfaceState.xcuserstate
 $RECYCLE.BIN/
 
@@ -29,4 +30,3 @@ npm-debug.log*
 /platforms
 /plugins
 /www
-package-lock.json
